@@ -1,0 +1,16 @@
+D:\VMSIS\lab1\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+D:\VMSIS\lab1\lab1\obj\Debug\lab1.csproj.SuggestedBindingRedirects.cache
+D:\VMSIS\lab1\lab1\obj\Debug\MainWindow.g.cs
+D:\VMSIS\lab1\lab1\obj\Debug\App.g.cs
+D:\VMSIS\lab1\lab1\obj\Debug\lab1_MarkupCompile.cache
+D:\VMSIS\lab1\lab1\obj\Debug\lab1_MarkupCompile.lref
+D:\VMSIS\lab1\lab1\bin\Debug\lab1.exe.config
+D:\VMSIS\lab1\lab1\bin\Debug\lab1.exe
+D:\VMSIS\lab1\lab1\bin\Debug\lab1.pdb
+D:\VMSIS\lab1\lab1\obj\Debug\MainWindow.baml
+D:\VMSIS\lab1\lab1\obj\Debug\lab1.g.resources
+D:\VMSIS\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\VMSIS\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+D:\VMSIS\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+D:\VMSIS\lab1\lab1\obj\Debug\lab1.exe
+D:\VMSIS\lab1\lab1\obj\Debug\lab1.pdb

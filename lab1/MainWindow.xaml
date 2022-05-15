@@ -1,0 +1,52 @@
+﻿<Window x:Class="lab1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Text="Введите число в 19сс: " FontSize="24" HorizontalAlignment="Center" />
+        <TextBox x:Name="tb_19cc_input" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" Grid.RowSpan="1" VerticalAlignment="Center"/>
+
+        <TextBlock Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Text="Ответ в 3сс: " FontSize="24" HorizontalAlignment="Center" />
+        <TextBox x:Name="tb_3cc_output" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="2" Grid.RowSpan="1" VerticalAlignment="Center"/>
+        
+        <Button Grid.Row="2" Grid.Column="5" Grid.ColumnSpan="3" Grid.RowSpan="1" Click="Button_Click_from_19cc_to_3cc" Content="Перевести в 3сс" FontSize="20"/>
+        <Button Grid.Row="6" Grid.Column="5" Grid.ColumnSpan="3" Grid.RowSpan="1" Click="Button_Click_from_3cc_to_19cc" Content="Перевести в 19сс" FontSize="20"/>
+
+        <TextBlock Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" Text="Введите число в 3сс: " FontSize="24" HorizontalAlignment="Center" />
+        <TextBox x:Name="tb_3cc_input" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="2" Grid.RowSpan="1" VerticalAlignment="Center"/>
+
+        <TextBlock Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="3" Text="Ответ в 19сс: " FontSize="24" HorizontalAlignment="Center" />
+        <TextBox x:Name="tb_19cc_output" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="2" Grid.RowSpan="1" VerticalAlignment="Center"/>
+
+
+
+    </Grid>
+</Window>
